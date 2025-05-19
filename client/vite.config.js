@@ -6,6 +6,6 @@ export default defineConfig({
  plugins: [react(), tsconfigPaths()],
  server: {
     host: true,
-    allowedHosts: 'all'
+    allowedHosts: 'ec2-13-60-18-19.eu-north-1.compute.amazonaws.com'
   }
 })
